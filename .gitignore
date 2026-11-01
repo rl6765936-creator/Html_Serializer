@@ -1,0 +1,31 @@
+# ===== תוצרי בנייה של Visual Studio / .NET =====
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+*.dll
+*.exe
+*.pdb
+
+# ===== קבצים אישיים של Visual Studio =====
+.vs/
+*.user
+*.suo
+*.userprefs
+
+# ===== סיסמאות, מפתחות והגדרות סודיות =====
+.env
+.env.*
+*.pfx
+*.p12
+*.key
+*.pem
+secrets.json
+appsettings.*.json
+*.publishsettings
+*.pubxml
+
+# ===== קבצי מערכת =====
+Thumbs.db
+desktop.ini
+.DS_Store
